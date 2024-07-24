@@ -20,7 +20,9 @@ const Banner = () => {
                                                     strings:
                                                         ['a React Developer',
                                                             'a Next JS Developer',
-                                                            'Currently learning MERN'
+                                                            'a WordPress Developer',
+                                                            'I am Learning MERN'
+
                                                         ],
                                                     autoStart: true,
                                                     loop: true,
