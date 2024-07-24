@@ -25,6 +25,13 @@ body {
     .input_stylings {
       @apply bg-DeepNightBlack text-SilverGray text-sm rounded-lg outline-none focus:ring-1 focus:ring-Green block w-full pl-10 p-2.5;
     }
+    @layer components {
+      .card_stylings {
+        @apply bg-EveningBlack/95 rounded-xl hover:bg-gradient-to-br hover:from-Green/10 hover:to-indigo-600/5;
+      }
+      /* other styles */
+    }
+    
 
     @font-face {
       font-family: 'cascadia-normal';
